@@ -1,5 +1,3 @@
-[config.yml](https://github.com/user-attachments/files/22055940/config.yml)# James Peter Mills — memory011man
-
 Salutations! I’m James, a technical professional building a strong foundation in **IT support and systems administration** on my path toward a career in **cybersecurity**. I’m currently completing the **Google IT Support Certificate** and working on projects that blend IT, electronics, and real-world problem solving.
 
 ---
