@@ -8,12 +8,12 @@ Salutations! I’m James, a technical professional building a strong foundation 
 - **IT fundamentals:** troubleshooting, system administration, networking  
 - **Cybersecurity fundamentals:** threat awareness, security hygiene, and system hardening  
 - **Hardware & technical systems:** diagnostics, hands-on repairs, optimization  
-- **Analog electronics & music tech:** a nod to my days tinkering with synthesizers  
+- **Analog electronics & Diesel Engine Repair:** a nod to my days tinkering with synthesizers and the w123 Mercedes-Benz  
 
 ---
 
 ### 🚀 Projects
-- **IT Portfolio** *(in progress)* — Portfolio of Projects and learning journey toward IT & cybersecurity  
+- **IT Portfolio** *(in progress)* — portfolio of projects and learning journey toward IT & cybersecurity  
 - **Hands-on Tech Builds** — small projects combining electronics, coding, and troubleshooting  
 - **Legacy Music Tech Repos** — for the curious, my older electronics experiments  
 
