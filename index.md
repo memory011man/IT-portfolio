@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <link rel="stylesheet" href="assets/css/style.css">
 
 # James Peter Mills - IT Support Specialist-> Future Security Profesional
