@@ -18,4 +18,3 @@ I just completed the **Google IT Support certificate**, and this space will grow
 - ## Projects
 - **System Audit Script (Python)** -> Coming Soon!
 - **Network Config Practice** -> Coming Soon!
-- 
