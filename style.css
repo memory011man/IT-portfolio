@@ -1,74 +1,88 @@
 /* Reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Base */
 body {
-    font-family 'Helvetica Neue', sans-serif;
-    background-color: #f9f6ef;
-    color #111;
-    line-height: 1.6;
-    padding: 2rem;
-    max-width: 960px;
-    margin: auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f9f6ef;   /* off-white */
+  color: #111;                 /* near-black text */
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 960px;
+  margin: auto;
 }
-/* headers */
+
+/* Headers */
 h1, h2, h3 {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 1rem;
-    border-bottom: 4px solid #e63929; /* bold Bauhaus stripe */
-    padding-bottom: 0.5REM;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  border-bottom: 4px solid #e63929; /* bold Bauhaus stripe */
+  padding-bottom: 0.5rem;
 }
-P {
-    MARGIN-BOTTOM: 1REM;
-    font-size: 1.1rem;
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
 /* Accent Links & Buttons */
 a, .btn {
-    color: #111;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: 2px solid #111;
-    padding: 0.5rem 1rem;
-    display: inline-block;
-    transition: all 0.2 ease;
-}
-a: hover, .btn:hover {
-    background: #0057a7; /* Bauhuas blue */
-    color: f9f6ef;
-    border-color: #0057a7
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #111;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: all 0.2s ease;
 }
 
-/* Section Blocks */
+a:hover, .btn:hover {
+  background: #0057a7;       /* Bauhaus blue */
+  color: #f9f6ef;
+  border-color: #0057a7;
+}
+
+/* Sections */
 section {
-    margin-bottom: 3rem;
-    padding: 2rem;
-    border-left: 8px solid #f2c500; /*yellow accent*/
-    background: fff;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-left: 8px solid #f2c500; /* yellow accent */
+  background: #fff;
 }
 
+/* Projects grid */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Project cards */
 .project-card {
-    background: #f9f6ef;
-    border: 2px solid #111;
-    padding: 1rem;
-    transition: transform 0.2s ease;
+  background: #f9f6ef;
+  border: 2px solid #111;
+  padding: 1rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    borderc-color: #e63929;
+  transform: translateY(-5px);
+  border-color: #e63929;
 }
+
 /* Footer */
 footer {
-    text-align: center;
-    padding: 2rem;
-    font-size: 0.9rem;
-    border-top: 2px solid #111;
-    margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  border-top: 2px solid #111;
+  margin-top: 3rem;
 }
